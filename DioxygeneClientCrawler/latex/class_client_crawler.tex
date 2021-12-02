@@ -1,0 +1,212 @@
+\hypertarget{class_client_crawler}{}\section{Référence de la classe Client\+Crawler}
+\label{class_client_crawler}\index{Client\+Crawler@{Client\+Crawler}}
+
+
+{\ttfamily \#include $<$clientcrawler.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Client\+Crawler\+:
+% FIG 0
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}{Client\+Crawler} (Q\+Widget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler}{Client\+Crawler}. \end{DoxyCompactList}\item 
+\hyperlink{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}{$\sim$\+Client\+Crawler} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}{Client\+Crawler\+::$\sim$\+Client\+Crawler} Détruit l\textquotesingle{}interface visuelle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Connecteurs privés}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_client_crawler_a9e4023f18ce27d6e9a48275b28854a64}{on\+Qtcp\+Socket\+\_\+connected} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a9e4023f18ce27d6e9a48275b28854a64}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+connected} lorsque qque l\textquotesingle{}on se connecte. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a48418532d769b7a6826f59aa0bbff7cc}{on\+Qtcp\+Socket\+\_\+disconnected} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a48418532d769b7a6826f59aa0bbff7cc}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+disconnected} lorsque l\textquotesingle{}on se déconnecte. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a88ad5d8a6a1bd7a0b9cfcf4881be46e6}{on\+Qtcp\+Socket\+\_\+error} (Q\+Abstract\+Socket\+::\+Socket\+Error socket\+Error)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a88ad5d8a6a1bd7a0b9cfcf4881be46e6}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+error}. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a7e2e23f7d3b9e8ea84e3fbd3e88a7c56}{on\+Qtcp\+Socket\+\_\+ready\+Read} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a7e2e23f7d3b9e8ea84e3fbd3e88a7c56}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+ready\+Read} Lors d\textquotesingle{}une réception de donnée on met a jour nos données. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}{on\+\_\+push\+Button\+Connexion\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}{Client\+Crawler\+::on\+\_\+push\+Button\+Connexion\+\_\+clicked} Initialisation de la connexion. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}{on\+\_\+push\+Button\+Up\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}{Client\+Crawler\+::on\+\_\+push\+Button\+Up\+\_\+clicked} bouge en haut. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}{on\+\_\+push\+Button\+Left\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}{Client\+Crawler\+::on\+\_\+push\+Button\+Left\+\_\+clicked} bouge a gauche. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}{on\+\_\+push\+Button\+Right\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}{Client\+Crawler\+::on\+\_\+push\+Button\+Right\+\_\+clicked} bouge a droite. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}{on\+\_\+push\+Button\+Down\+\_\+clicked} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}{Client\+Crawler\+::on\+\_\+push\+Button\+Down\+\_\+clicked} Bouge en bas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Client\+Crawler $\ast$ \hyperlink{class_client_crawler_a6263947f12b0ca34753f4cbb43d6d4fd}{ui}
+\item 
+Q\+Grid\+Layout $\ast$ \hyperlink{class_client_crawler_ac32bb3ac1812334a2232d462f65e28d2}{grille}
+\item 
+Q\+Tcp\+Socket $\ast$ \hyperlink{class_client_crawler_a7796ea05089d10bd1c5a6158b8cd8c89}{socket\+Client}
+\item 
+Q\+Point \hyperlink{class_client_crawler_acbc6c229a23b06f5e60b1845c687e513}{point}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}\label{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}} 
+\index{Client\+Crawler@{Client\+Crawler}!Client\+Crawler@{Client\+Crawler}}
+\index{Client\+Crawler@{Client\+Crawler}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{Client\+Crawler()}{ClientCrawler()}}
+{\footnotesize\ttfamily Client\+Crawler\+::\+Client\+Crawler (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_client_crawler}{Client\+Crawler}. 
+
+\hyperlink{class_client_crawler_a07b217751bd9e1b100330453605a8d7d}{Client\+Crawler\+::\+Client\+Crawler}.
+
+
+\begin{DoxyParams}{Paramètres}
+{\em parent} & C\+Onstructeur de la classe\\
+\hline
+{\em parent} & Le constructeur construit la grille et met en place les widgets \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}\label{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}} 
+\index{Client\+Crawler@{Client\+Crawler}!````~Client\+Crawler@{$\sim$\+Client\+Crawler}}
+\index{````~Client\+Crawler@{$\sim$\+Client\+Crawler}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{$\sim$\+Client\+Crawler()}{~ClientCrawler()}}
+{\footnotesize\ttfamily Client\+Crawler\+::$\sim$\+Client\+Crawler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_client_crawler_af66de2d9f7a09978c1deb87c2771df3e}{Client\+Crawler\+::$\sim$\+Client\+Crawler} Détruit l\textquotesingle{}interface visuelle. 
+
+Destructeur de la classe 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}\label{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Connexion\+\_\+clicked@{on\+\_\+push\+Button\+Connexion\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Connexion\+\_\+clicked@{on\+\_\+push\+Button\+Connexion\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Connexion\+\_\+clicked}{on\_pushButtonConnexion\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Connexion\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a0a5fe0345063d04e2c9acc5734b4a0d6}{Client\+Crawler\+::on\+\_\+push\+Button\+Connexion\+\_\+clicked} Initialisation de la connexion. 
+
+\mbox{\Hypertarget{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}\label{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Down\+\_\+clicked@{on\+\_\+push\+Button\+Down\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Down\+\_\+clicked@{on\+\_\+push\+Button\+Down\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Down\+\_\+clicked}{on\_pushButtonDown\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Down\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a3f9ad2ca60a388d5d3d0436af7dd3756}{Client\+Crawler\+::on\+\_\+push\+Button\+Down\+\_\+clicked} Bouge en bas. 
+
+\mbox{\Hypertarget{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}\label{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Left\+\_\+clicked@{on\+\_\+push\+Button\+Left\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Left\+\_\+clicked@{on\+\_\+push\+Button\+Left\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Left\+\_\+clicked}{on\_pushButtonLeft\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Left\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_aadabe491ca10e5499026d3b1b0de99a9}{Client\+Crawler\+::on\+\_\+push\+Button\+Left\+\_\+clicked} bouge a gauche. 
+
+\mbox{\Hypertarget{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}\label{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Right\+\_\+clicked@{on\+\_\+push\+Button\+Right\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Right\+\_\+clicked@{on\+\_\+push\+Button\+Right\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Right\+\_\+clicked}{on\_pushButtonRight\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Right\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a4deee7315beda4b1c67baf0801512dcc}{Client\+Crawler\+::on\+\_\+push\+Button\+Right\+\_\+clicked} bouge a droite. 
+
+\mbox{\Hypertarget{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}\label{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+\_\+push\+Button\+Up\+\_\+clicked@{on\+\_\+push\+Button\+Up\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+Up\+\_\+clicked@{on\+\_\+push\+Button\+Up\+\_\+clicked}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+Up\+\_\+clicked}{on\_pushButtonUp\_clicked}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+\_\+push\+Button\+Up\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a832bf9d34a93b10784f3564be2346adf}{Client\+Crawler\+::on\+\_\+push\+Button\+Up\+\_\+clicked} bouge en haut. 
+
+\mbox{\Hypertarget{class_client_crawler_a9e4023f18ce27d6e9a48275b28854a64}\label{class_client_crawler_a9e4023f18ce27d6e9a48275b28854a64}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Qtcp\+Socket\+\_\+connected@{on\+Qtcp\+Socket\+\_\+connected}}
+\index{on\+Qtcp\+Socket\+\_\+connected@{on\+Qtcp\+Socket\+\_\+connected}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Qtcp\+Socket\+\_\+connected}{onQtcpSocket\_connected}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a9e4023f18ce27d6e9a48275b28854a64}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+connected} lorsque qque l\textquotesingle{}on se connecte. 
+
+\mbox{\Hypertarget{class_client_crawler_a48418532d769b7a6826f59aa0bbff7cc}\label{class_client_crawler_a48418532d769b7a6826f59aa0bbff7cc}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Qtcp\+Socket\+\_\+disconnected@{on\+Qtcp\+Socket\+\_\+disconnected}}
+\index{on\+Qtcp\+Socket\+\_\+disconnected@{on\+Qtcp\+Socket\+\_\+disconnected}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Qtcp\+Socket\+\_\+disconnected}{onQtcpSocket\_disconnected}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+disconnected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a48418532d769b7a6826f59aa0bbff7cc}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+disconnected} lorsque l\textquotesingle{}on se déconnecte. 
+
+\mbox{\Hypertarget{class_client_crawler_a88ad5d8a6a1bd7a0b9cfcf4881be46e6}\label{class_client_crawler_a88ad5d8a6a1bd7a0b9cfcf4881be46e6}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Qtcp\+Socket\+\_\+error@{on\+Qtcp\+Socket\+\_\+error}}
+\index{on\+Qtcp\+Socket\+\_\+error@{on\+Qtcp\+Socket\+\_\+error}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Qtcp\+Socket\+\_\+error}{onQtcpSocket\_error}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+error (\begin{DoxyParamCaption}\item[{Q\+Abstract\+Socket\+::\+Socket\+Error}]{socket\+Error }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a88ad5d8a6a1bd7a0b9cfcf4881be46e6}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+error}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em socket\+Error} & Une erreur avec la socket \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_crawler_a7e2e23f7d3b9e8ea84e3fbd3e88a7c56}\label{class_client_crawler_a7e2e23f7d3b9e8ea84e3fbd3e88a7c56}} 
+\index{Client\+Crawler@{Client\+Crawler}!on\+Qtcp\+Socket\+\_\+ready\+Read@{on\+Qtcp\+Socket\+\_\+ready\+Read}}
+\index{on\+Qtcp\+Socket\+\_\+ready\+Read@{on\+Qtcp\+Socket\+\_\+ready\+Read}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{on\+Qtcp\+Socket\+\_\+ready\+Read}{onQtcpSocket\_readyRead}}
+{\footnotesize\ttfamily void Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+ready\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+\hyperlink{class_client_crawler_a7e2e23f7d3b9e8ea84e3fbd3e88a7c56}{Client\+Crawler\+::on\+Qtcp\+Socket\+\_\+ready\+Read} Lors d\textquotesingle{}une réception de donnée on met a jour nos données. 
+
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_client_crawler_ac32bb3ac1812334a2232d462f65e28d2}\label{class_client_crawler_ac32bb3ac1812334a2232d462f65e28d2}} 
+\index{Client\+Crawler@{Client\+Crawler}!grille@{grille}}
+\index{grille@{grille}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{grille}{grille}}
+{\footnotesize\ttfamily Q\+Grid\+Layout$\ast$ Client\+Crawler\+::grille\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_client_crawler_acbc6c229a23b06f5e60b1845c687e513}\label{class_client_crawler_acbc6c229a23b06f5e60b1845c687e513}} 
+\index{Client\+Crawler@{Client\+Crawler}!point@{point}}
+\index{point@{point}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{point}{point}}
+{\footnotesize\ttfamily Q\+Point Client\+Crawler\+::point\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_client_crawler_a7796ea05089d10bd1c5a6158b8cd8c89}\label{class_client_crawler_a7796ea05089d10bd1c5a6158b8cd8c89}} 
+\index{Client\+Crawler@{Client\+Crawler}!socket\+Client@{socket\+Client}}
+\index{socket\+Client@{socket\+Client}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{socket\+Client}{socketClient}}
+{\footnotesize\ttfamily Q\+Tcp\+Socket$\ast$ Client\+Crawler\+::socket\+Client\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_client_crawler_a6263947f12b0ca34753f4cbb43d6d4fd}\label{class_client_crawler_a6263947f12b0ca34753f4cbb43d6d4fd}} 
+\index{Client\+Crawler@{Client\+Crawler}!ui@{ui}}
+\index{ui@{ui}!Client\+Crawler@{Client\+Crawler}}
+\subsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Client\+Crawler$\ast$ Client\+Crawler\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{clientcrawler_8h}{clientcrawler.\+h}\item 
+\hyperlink{clientcrawler_8cpp}{clientcrawler.\+cpp}\end{DoxyCompactItemize}
